@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="facebook_app_id">702367993779840</string>
+    <string name="hash_key">Bmce+9aHdOoVtE7fS3B07tfj7Bc=</string>
+    <string name="fb_login_protocol_scheme">fb702367993779840</string>
+
+</resources>

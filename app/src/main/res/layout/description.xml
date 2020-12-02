@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgPersoon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/header" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgBarre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pub" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Vannes56."
+                android:textColor="#FD0002" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="JournÃ©e Mobile. Trois jours de formation entre cours thÃ©orique et pratique"
+                android:textColor="#404040"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/barre" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lundi Mardi et mercredi, de 9h Ã  12h. de 14h Ã  20h"
+            android:textColor="#0E0D0D" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray"
+                    android:text="Liew \nTarifs \nContact"
+                    android:textColor="#0E0D0D" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ISGA Marrakech. ISGA Rabat \n 200dh \n Mr HAGIL"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="74dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:textColor="#FD0002"
+                android:text="\n \n \n 0680772637" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/barre" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#0E0D0D"
+            android:text="Android est le systÃ¨me d'exploitation mobile de Google open-source qui Ã©quipe la majoritÃ© des smartphones et tablettes du marchÃ©. Initialement, Android Ã©tait une startup dirigÃ©e par Andy Rubin et qui a Ã©tÃ© rachetÃ© par Google en 2005. Aujourd'hui, Android est le systÃ¨me d'exploitation mobile numÃ©ro un dans le monde.
+                           Android est le systÃ¨me d'exploitation mobile de Google open-source qui Ã©quipe la majoritÃ© des smartphones et tablettes du marchÃ©. Initialement, Android Ã©tait une startup dirigÃ©e par Andy Rubin et qui a Ã©tÃ© rachetÃ© par Google en 2005. Aujourd'hui, Android est le systÃ¨me d'exploitation mobile numÃ©ro un dans le monde.
+                           Android est le systÃ¨me d'exploitation mobile de Google open-source qui Ã©quipe la majoritÃ© des smartphones et tablettes du marchÃ©. Initialement, Android Ã©tait une startup dirigÃ©e par Andy Rubin et qui a Ã©tÃ© rachetÃ© par Google en 2005. Aujourd'hui, Android est le systÃ¨me d'exploitation mobile numÃ©ro un dans le monde.
+                           Android est le systÃ¨me d'exploitation mobile de Google open-source qui Ã©quipe la majoritÃ© des smartphones et tablettes du marchÃ©. Initialement, Android Ã©tait une startup dirigÃ©e par Andy Rubin et qui a Ã©tÃ© rachetÃ© par Google en 2005. Aujourd'hui, Android est le systÃ¨me d'exploitation mobile numÃ©ro un dans le monde.
+                           Android est le systÃ¨me d'exploitation mobile de Google open-source qui Ã©quipe la majoritÃ© des smartphones et tablettes du marchÃ©. Initialement, Android Ã©tait une startup dirigÃ©e par Andy Rubin et qui a Ã©tÃ© rachetÃ© par Google en 2005. Aujourd'hui, Android est le systÃ¨me d'exploitation mobile numÃ©ro un dans le monde.
+                          " />
+    </LinearLayout>
+
+</LinearLayout>
